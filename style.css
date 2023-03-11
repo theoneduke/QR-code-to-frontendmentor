@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Raleway:wght@100&family=Roboto:wght@300&display=swap');
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+*{
+    box-sizing: border-box;
+    font-family: outfit;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 70%;
+    width: 25%;
+    border-radius: 20px;
+
+}
+
+.container img{
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 5%;
+    
+}
+
+.container h2{
+    width: 80%;
+    text-align: center;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.container p{
+    width: 80%;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
